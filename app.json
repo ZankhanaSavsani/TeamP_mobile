@@ -1,0 +1,54 @@
+{
+  "expo": {
+    "name": "Team P",
+    "slug": "team-p",
+    "version": "1.0.0",
+    "orientation": "default",
+    "icon": "./assets/logo.png",
+    "userInterfaceStyle": "light",
+    "updates": {
+      "url": "https://u.expo.dev/018222e2-231a-4f3b-9d57-8bd1125de576",
+      "fallbackToCacheTimeout": 0,
+      "checkAutomatically": "ON_LOAD"
+    },
+    "splash": {
+      "image": "./assets/logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.teamp",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logo.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.teamp",
+      "versionCode": 1,
+      "statusBar": {
+        "hidden": false,
+        "translucent": false
+      }
+    },
+    "web": {
+      "favicon": "./assets/logo.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "018222e2-231a-4f3b-9d57-8bd1125de576"
+      }
+    },
+    "owner": "fiscal_ox",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    }
+  }
+}
